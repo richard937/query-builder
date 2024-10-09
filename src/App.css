@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+ol,
+ul,
+h4,
+h5,
+h6,
+p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.width-100 {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.width-50 {
+  width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.width-75 {
+  width: 75%;
+}
+
+.height-100 {
+  height: 100vh;
+}
+
+.height-70 {
+  height: 70vh;
+}
+
+.flex {
   display: flex;
+}
+
+.flex-column {
   flex-direction: column;
+}
+
+.flex-center {
   align-items: center;
+}
+
+.flex-justify {
+  justify-content: space-between;
+}
+
+.flex-justify-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-12 {
+  gap: 12px
+}
+
+.mt12 {
+  margin-top: 12px;
+}
+
+.p16 {
+  padding: 16px;
+}
+
+.thin-border {
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.close-icon {
+  top: 16px;
+  right: 16px;
+}
+
+pre {
+  overflow: auto;
+}
+
+.bg-dark {
+  background-color: #1e2025;
+}
+
+.bg-purple {
+  /* to override button bg */
+  background-color: #5c61f0 !important;
+}
+
+.bg-grey {
+  background-color: #282b30;
+}
+
+.query-text {
+  background-color: #4338ca;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.purple-light {
+  color: #a5b4fc;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.mx20 {
+  margin: 0px 20px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.query-builer-section {
+  overflow-y: scroll;
+  max-height: 70vh;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+#select-label {
+  color: white;
+}
+
+.input-select {
+  svg, div {
+    color: white;
   }
-  to {
-    transform: rotate(360deg);
+
+  div {
+    background-color: #404348;
   }
+
+  fieldset {
+    border: none;
+    border-style: none;
+    border-color: unset;
+  }
+}
+
+.toggle-button {
+  .inactive {
+    color: white;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.text-elipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
